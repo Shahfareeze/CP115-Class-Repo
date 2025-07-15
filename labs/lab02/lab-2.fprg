@@ -1,6 +1,4 @@
-Run test -f labs/lab02/lab-02.fprg
-test -f labs/lab02/lab-02.fprg
-shell: /usr/bin/bash -e {0}
+
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
