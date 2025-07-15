@@ -20,4 +20,3 @@
     </function>
 </flowgorithm>
 test -f labs/lab02/lab-02.fprg
-shell: /usr/bin/bash -e {0}
