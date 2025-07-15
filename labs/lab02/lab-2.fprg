@@ -1,3 +1,4 @@
+test -f labs/lab02/lab-02.fprg
 
 <flowgorithm fileversion="4.2">
     <attributes>
