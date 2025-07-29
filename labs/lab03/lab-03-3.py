@@ -1,9 +1,9 @@
 kilobyte = float(input())
 megabyte = kilobyte / 1024
 print(megabyte)
-gigabyte = kilobyte / 1048576
+gigabyte = megabyte / 1024
 print(gigabyte)
-terabyte = kilobyte / 8388608
+terabyte = gigabyte / 1024
 print(terabyte)
-petabyte = kilobyte / 1099511627776
+petabyte = terabyte / 1024
 print(petabyte)
