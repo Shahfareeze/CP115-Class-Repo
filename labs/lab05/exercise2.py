@@ -3,7 +3,7 @@ import math
 radius_of_circle = float(input("Enter radius: "))
 
 # calculate circle area
-circle_area = ( (2 ** radius_of_circle) * math.pi)
+circle_area = ( ( radius_of_circle ** 2) * math.pi)
 #calculate circumference of the circle
 circumference_of_circle = 2*(math.pi * (radius_of_circle))
 
