@@ -1,0 +1,11 @@
+
+item_name1 = input ("Enter item name: ")
+price1 = input ("Enter price: ")
+
+item_name2 = input ("Enter item name: ")
+price2 = input ("Enter price: ")
+
+item_name3 = input ("Enter item name: ")
+price3 = input ("Enter price: ")
+
+subtotal = price1 + pr
