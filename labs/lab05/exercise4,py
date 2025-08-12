@@ -8,4 +8,4 @@ price2 = input ("Enter price: ")
 item_name3 = input ("Enter item name: ")
 price3 = input ("Enter price: ")
 
-subtotal = price1 + pr
+subtotal = price1 + price2
