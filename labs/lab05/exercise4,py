@@ -1,11 +1,24 @@
 
-item_name1 = input ("Enter item name: ")
-price1 = input ("Enter price: ")
+item_name_1 = input ("Enter item name: ")
+price_1 = int(input("Enter price: "))
+quantity_1 = int(input("Enter quantity: "))
+total_1 = price_1 * quantity_1
 
-item_name2 = input ("Enter item name: ")
-price2 = input ("Enter price: ")
+item_name_2 = input ("Enter item name: ")
+price_2 = int(input("Enter price: "))
+quantity_2 = int(input("Enter quantity: "))
+total_2 = price_2 * quantity_2
 
-item_name3 = input ("Enter item name: ")
-price3 = input ("Enter price: ")
+item_name_3 = input ("Enter item name: ")
+price_3 = input("Enter price: ")
+quantity_3 = input("Enter quantity: ")
+total_3 = price_3*quantity_3
 
-subtotal = price1 + price2
+
+subtotal = total_1 + total_2 + total_3
+tax_amount = subtotal*0.06
+total_cost = subtotal + tax_amount
+
+print(subtotal)
+print(tax_amount)
+print(total_cost)
