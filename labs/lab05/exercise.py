@@ -72,3 +72,5 @@ print()
 print("Student: " + student_name)
 print("Course: " + course_name)
 print("Final Grade: " + str(final_grade) + "%")
+
+print(current_date)
