@@ -56,7 +56,7 @@ def extract_results(output):
 def test_tax_calculations(exercise_path, base_salary, overtime_hours, tax_status, expected_tax_rate, expected_net_salary):
     """Test various tax calculation scenarios"""
     inputs = f"Test Employee\n{base_salary}\n{overtime_hours}\n{tax_status}\n"
-    output = run_ese(exercise_path, inputs)
+    output = run_exercise(exercise_path, inputs)
     
     employee_name, actual_tax_rate, actual_net_salary = extract_results(output)
     
