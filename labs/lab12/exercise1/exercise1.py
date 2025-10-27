@@ -2,13 +2,13 @@ price = float(input())
 
 # TODO: Your code here
 item_count=0
-total_cost=0
-while price != -1:
-    if price >= 0 :
-        total_cost+=price
-    else:
-        total_cost+=0
+total_cost=0.0
+
+while price >= 0:
+    total_cost+=price
     price = float(input())
+    item_count+=1
+
 
 
 print(item_count)
